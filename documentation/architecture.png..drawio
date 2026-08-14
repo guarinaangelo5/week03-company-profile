@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IXAej8Zn5yawoUDq6xu4">
+    <mxGraphModel dx="1360" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BlmRYpqPBnv66c6syWue-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;User / Browser&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; http://localhost&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; Laravel Routes&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; web.php&amp;nbsp; &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /about&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;/services&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; /contact&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="360" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp;CompanyController&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; home()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;about()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; services()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; contact()&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="355" y="640" as="geometry" />
+        </mxCell>
+        <UserObject label="Blade Views&amp;nbsp; pages/home.blade.php&amp;nbsp; pages/about.blade.php&amp;nbsp; pages/services.blade.php&amp;nbsp; pages/contact.blade.php" link="Blade Views          ││                            ││  pages/home.blade.php      ││  pages/about.blade.php     ││  pages/services.blade.php  ││  pages/contact.blade.php" id="BlmRYpqPBnv66c6syWue-4">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="100" width="140" x="360" y="770" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BlmRYpqPBnv66c6syWue-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;Company Profile Website&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-7" edge="1" parent="1" source="BlmRYpqPBnv66c6syWue-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BlmRYpqPBnv66c6syWue-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="780" as="sourcePoint" />
+            <mxPoint x="450" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-8" edge="1" parent="1" source="BlmRYpqPBnv66c6syWue-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BlmRYpqPBnv66c6syWue-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-9" edge="1" parent="1" source="BlmRYpqPBnv66c6syWue-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BlmRYpqPBnv66c6syWue-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-10" edge="1" parent="1" source="BlmRYpqPBnv66c6syWue-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BlmRYpqPBnv66c6syWue-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="670" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP Request" vertex="1">
+          <mxGeometry height="30" width="70" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Route to Controller" vertex="1">
+          <mxGeometry height="30" width="60" x="455" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Return View" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="BlmRYpqPBnv66c6syWue-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Render HTML" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="890" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
